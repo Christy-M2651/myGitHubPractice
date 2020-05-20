@@ -48,7 +48,6 @@ public class myAppTester {
 	 * display a string backward.
 	 * @param str The string to display backward.
 	 */
-
 	public static void strReverse(String str)
 	{
 		if (str.length() == 0)	// Reached the end of the string
