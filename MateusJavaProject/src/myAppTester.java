@@ -15,21 +15,19 @@ public class myAppTester {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		String name, reverseInput;
 		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.println("Welcome to Software Engineering");
 		System.out.println("What is your name?");
 		
-		name = input.nextLine();
+		String name = input.nextLine();
 		
 		System.out.println();
 		System.out.println("Hello, " + name);
 		System.out.println("Do you want to see your name in reverse?" + "\n1 for yes, else for no");
 		
-		reverseInput = input.nextLine();
+		String reverseInput = input.nextLine();
 		
 		if(reverseInput.equals("1")) {
 			System.out.println();
